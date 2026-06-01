@@ -311,17 +311,172 @@
 //   .findIndex(arr => arr[1] === 0 && arr[2])
 
 // console.log(res)
-const nums = [4, 5, 8, 10]
+// const nums = [4, 5, 8, 10]
 
-const fns = [
-  n => n % 2 === 0,
-  n => n + 3,
-  n => n * n
+// const fns = [
+//   n => n % 2 === 0,
+//   n => n + 3,
+//   n => n * n
+// ]
+
+// const res = nums
+//   .map(n => fns.map(fn => fn(n)))
+//   .filter(arr => arr[0])
+//   .map(arr => arr[1] + arr[2])
+
+// console.log(res)
+
+
+// const datos = [
+//   { val: 4,  tags: ["par", "pequeño"] },
+//   { val: 9,  tags: ["impar", "grande"] },
+//   { val: 12, tags: ["par", "grande"] },
+//   { val: 7,  tags: ["impar", "pequeño"] },
+// ]
+
+// const checks = [
+//   d => d.val > 5,
+//   d => d.tags.includes("par"),
+//   d => d.val % 4 === 0
+// ]
+
+// const res = datos
+//   .map(d => checks.map(fn => fn(d)))
+//   .filter(arr => arr.some((v, i) => v && i !== 1))
+//   .map(arr => arr.filter(v => v).length)
+
+// console.log(res)
+
+// const grupos = [
+//   { nombre: "A", nums: [2, 4, 6] },
+//   { nombre: "B", nums: [1, 3, 5] },
+//   { nombre: "C", nums: [3, 6, 9] },
+//   { nombre: "D", nums: [2, 5, 8] },
+// ]
+
+// const fns = [
+//   g => g.nums.every(n => n % 2 === 0),
+//   g => g.nums.reduce((a, b) => a + b, 0) > 10,
+//   g => g.nums.includes(6)
+// ]
+
+// const res = grupos
+//   .map(g => fns.map(fn => fn(g)))
+//   .filter(arr => arr[0] || arr[2])
+//   .map(arr => arr.filter(v => v).length)
+
+// console.log(res)
+// const nums = [2, 3, 4, 5, 6]
+
+// const fns = {
+//   a: n => n % 2 === 0,
+//   b: n => n > 3,
+//   c: n => n * n > 20
+// }
+
+// const keys = ['a', 'b', 'c']
+
+// const res = nums
+//   .map(n => keys.map(k => fns[k](n)))
+//   .filter(arr => arr[0] && arr[1])
+//   .findIndex(arr => arr[2])
+
+// console.log(res)
+
+// const nums = [1, 2, 3, 4, 5, 6]
+
+// const fns = [
+//   n => [n % 2 === 0, n * 3],
+//   n => [n > 3, n - 1]
+// ]
+
+// const res = nums
+//   .map(n => fns.map(fn => fn(n)))
+//   .flat(2)
+//   .filter(v => typeof v === 'number' && v > 5)
+
+// console.log(res)
+
+// const palabras = ["hola", "mundo", "js", "node", "express"]
+
+// const checks = [
+//   p => p.length > 3,
+//   p => p.includes("o"),
+//   p => p[0] === "n" || p[0] === "e"
+// ]
+
+// const res = palabras
+//   .map(p => checks.map(fn => fn(p)))
+//   .filter(arr => arr.every(v => v))
+
+// console.log(res)
+
+// const nums = [10, 15, 20, 25, 30]
+
+// const fns = [
+//   n => n % 5 === 0,
+//   n => n % 2 === 0,
+//   n => n > 18
+// ]
+
+// const res = nums
+//   .map(n => fns.map(fn => fn(n)))
+//   .reduce((acc, arr, i) => {
+//     if (arr.every(v => v)) acc.push(nums[i])
+//     return acc
+//   }, [])
+
+// console.log(res)
+// const matriz = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9]
+// ]
+
+// const fns = [
+//   arr => arr.some(n => n % 2 === 0),
+//   arr => arr.reduce((a, b) => a + b, 0) > 10,
+//   arr => arr.includes(5)
+// ]
+
+// const res = matriz
+//   .map(arr => fns.map(fn => fn(arr)))
+//   .filter(arr => arr[0] && arr[1])
+//   .map(arr => arr.filter(v => v).length)
+
+// console.log(res)
+
+// const nums = [3, 5, 7, 9, 11]
+
+// const crearCheck = (min, max) => n => n >= min && n <= max
+
+// const checks = [
+//   crearCheck(1, 6),
+//   crearCheck(4, 10),
+//   crearCheck(8, 12)
+// ]
+
+// const res = nums
+//   .map(n => checks.map(fn => fn(n)))
+//   .filter(arr => arr.some(v => v) && !arr.every(v => v))
+
+// console.log(res)
+const registros = [
+  { id: 1, valores: [3, 7, 2] },
+  { id: 2, valores: [8, 4, 6] },
+  { id: 3, valores: [1, 9, 5] },
+  { id: 4, valores: [6, 2, 8] },
 ]
 
-const res = nums
-  .map(n => fns.map(fn => fn(n)))
-  .filter(arr => arr[0])
-  .map(arr => arr[1] + arr[2])
+const fns = [
+  r => r.valores.every(v => v > 1),
+  r => r.valores.reduce((a, b) => a + b, 0) > 14,
+  r => r.valores.includes(8)
+]
+
+const res = registros
+  .map(r => fns.map(fn => fn(r)))
+  .filter(arr => arr[0] && arr[1])
+  .map(arr => arr[2])
 
 console.log(res)
