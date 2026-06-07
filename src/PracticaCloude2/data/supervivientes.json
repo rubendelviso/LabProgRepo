@@ -1,0 +1,22 @@
+[
+  { "id": 1, "nombre": "Kane", "rol": "Soldado", "resistencia": 88, "fuerza": 91, "velocidad": 2.5, "habilidades": ["combate", "escudo", "intimidar"], "refugio": "Fuerte Sur", "vivo": true },
+  { "id": 2, "nombre": "Mara", "rol": "Médica", "resistencia": 72, "fuerza": 48, "velocidad": 3.1, "habilidades": ["curar", "sigilo", "trampas"], "refugio": "Bunker Norte", "vivo": true },
+  { "id": 3, "nombre": "Rex", "rol": "Explorador", "resistencia": 61, "fuerza": 55, "velocidad": 3.8, "habilidades": ["rastreo", "sigilo", "dash"], "refugio": "Torre Oeste", "vivo": false },
+  { "id": 4, "nombre": "Sable", "rol": "Francotirador", "resistencia": 58, "fuerza": 43, "velocidad": 2.9, "habilidades": ["crítico", "sigilo", "dash"], "refugio": "Fuerte Sur", "vivo": true },
+  { "id": 5, "nombre": "Dina", "rol": "Médica", "resistencia": 76, "fuerza": 39, "velocidad": 3.3, "habilidades": ["curar", "trampas", "escudo"], "refugio": "Bunker Norte", "vivo": true },
+  { "id": 6, "nombre": "Brax", "rol": "Soldado", "resistencia": 95, "fuerza": 88, "velocidad": 2.2, "habilidades": ["combate", "intimidar", "escudo"], "refugio": "Cuartel Central", "vivo": true },
+  { "id": 7, "nombre": "Lyra", "rol": "Exploradora", "resistencia": 64, "fuerza": 50, "velocidad": 4.0, "habilidades": ["rastreo", "dash", "sigilo"], "refugio": "Torre Oeste", "vivo": false },
+  { "id": 8, "nombre": "Teo", "rol": "Ingeniero", "resistencia": 69, "fuerza": 62, "velocidad": 2.7, "habilidades": ["trampas", "escudo", "rastreo"], "refugio": "Bunker Norte", "vivo": true },
+  { "id": 9, "nombre": "Nova", "rol": "Francotirador", "resistencia": 54, "fuerza": 41, "velocidad": 3.5, "habilidades": ["crítico", "dash", "sigilo"], "refugio": "Cuartel Central", "vivo": true },
+  { "id": 10, "nombre": "Arlo", "rol": "Soldado", "resistencia": 82, "fuerza": 79, "velocidad": 2.4, "habilidades": ["combate", "intimidar", "curar"], "refugio": "Fuerte Sur", "vivo": false },
+  { "id": 11, "nombre": "Zara", "rol": "Médica", "resistencia": 70, "fuerza": 44, "velocidad": 3.0, "habilidades": ["curar", "sigilo", "rastreo"], "refugio": "Torre Oeste", "vivo": true },
+  { "id": 12, "nombre": "Hawk", "rol": "Explorador", "resistencia": 66, "fuerza": 58, "velocidad": 3.7, "habilidades": ["dash", "rastreo", "trampas"], "refugio": "Cuartel Central", "vivo": true },
+  { "id": 13, "nombre": "Petra", "rol": "Ingeniera", "resistencia": 73, "fuerza": 65, "velocidad": 2.8, "habilidades": ["trampas", "escudo", "combate"], "refugio": "Bunker Norte", "vivo": true },
+  { "id": 14, "nombre": "Juno", "rol": "Francotirador", "resistencia": 57, "fuerza": 40, "velocidad": 3.6, "habilidades": ["crítico", "sigilo", "dash"], "refugio": "Fuerte Sur", "vivo": false },
+  { "id": 15, "nombre": "Orion", "rol": "Soldado", "resistencia": 91, "fuerza": 85, "velocidad": 2.3, "habilidades": ["combate", "escudo", "intimidar"], "refugio": "Cuartel Central", "vivo": true },
+  { "id": 16, "nombre": "Faye", "rol": "Exploradora", "resistencia": 62, "fuerza": 52, "velocidad": 3.9, "habilidades": ["rastreo", "dash", "curar"], "refugio": "Torre Oeste", "vivo": true },
+  { "id": 17, "nombre": "Colt", "rol": "Ingeniero", "resistencia": 68, "fuerza": 61, "velocidad": 2.6, "habilidades": ["trampas", "rastreo", "sigilo"], "refugio": "Bunker Norte", "vivo": true },
+  { "id": 18, "nombre": "Skye", "rol": "Médica", "resistencia": 74, "fuerza": 46, "velocidad": 3.2, "habilidades": ["curar", "escudo", "trampas"], "refugio": "Cuartel Central", "vivo": false },
+  { "id": 19, "nombre": "Roan", "rol": "Francotirador", "resistencia": 56, "fuerza": 42, "velocidad": 3.4, "habilidades": ["crítico", "dash", "intimidar"], "refugio": "Fuerte Sur", "vivo": true },
+  { "id": 20, "nombre": "Vex", "rol": "Soldado", "resistencia": 86, "fuerza": 83, "velocidad": 2.1, "habilidades": ["combate", "escudo", "curar"], "refugio": "Torre Oeste", "vivo": true }
+]

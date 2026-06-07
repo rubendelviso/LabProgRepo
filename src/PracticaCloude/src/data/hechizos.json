@@ -1,0 +1,22 @@
+[
+  { "id": 1, "nombre": "Bola de Fuego", "escuela": "Evocación", "nivel": 3, "dano": 280, "costo": 45, "efectos": ["quemar", "area"], "elemento": "Fuego", "activo": true },
+  { "id": 2, "nombre": "Rayo Helado", "escuela": "Conjuración", "nivel": 2, "dano": 150, "costo": 25, "efectos": ["congelar", "ralentizar"], "elemento": "Hielo", "activo": true },
+  { "id": 3, "nombre": "Llamarada", "escuela": "Evocación", "nivel": 5, "dano": 390, "costo": 70, "efectos": ["quemar", "cegar", "area"], "elemento": "Fuego", "activo": false },
+  { "id": 4, "nombre": "Cadenas de Sombra", "escuela": "Nigromancia", "nivel": 4, "dano": 210, "costo": 55, "efectos": ["paralizar", "maldecir"], "elemento": "Oscuridad", "activo": true },
+  { "id": 5, "nombre": "Tormenta Glacial", "escuela": "Evocación", "nivel": 7, "dano": 480, "costo": 95, "efectos": ["congelar", "ralentizar", "area"], "elemento": "Hielo", "activo": true },
+  { "id": 6, "nombre": "Relámpago", "escuela": "Evocación", "nivel": 4, "dano": 320, "costo": 60, "efectos": ["aturdir", "quemar"], "elemento": "Rayo", "activo": true },
+  { "id": 7, "nombre": "Mano de la Muerte", "escuela": "Nigromancia", "nivel": 8, "dano": 560, "costo": 110, "efectos": ["maldecir", "paralizar", "drenar"], "elemento": "Oscuridad", "activo": false },
+  { "id": 8, "nombre": "Torbellino de Hojas", "escuela": "Naturaleza", "nivel": 2, "dano": 130, "costo": 20, "efectos": ["ralentizar", "area"], "elemento": "Naturaleza", "activo": true },
+  { "id": 9, "nombre": "Invocar Golem", "escuela": "Conjuración", "nivel": 6, "dano": 400, "costo": 85, "efectos": ["area", "aturdir"], "elemento": "Tierra", "activo": true },
+  { "id": 10, "nombre": "Toque Venenoso", "escuela": "Naturaleza", "nivel": 3, "dano": 190, "costo": 35, "efectos": ["envenenar", "ralentizar"], "elemento": "Naturaleza", "activo": true },
+  { "id": 11, "nombre": "Nova Solar", "escuela": "Evocación", "nivel": 9, "dano": 640, "costo": 130, "efectos": ["cegar", "quemar", "area"], "elemento": "Luz", "activo": true },
+  { "id": 12, "nombre": "Espinas Eternas", "escuela": "Naturaleza", "nivel": 5, "dano": 350, "costo": 65, "efectos": ["envenenar", "paralizar", "area"], "elemento": "Naturaleza", "activo": false },
+  { "id": 13, "nombre": "Runa del Caos", "escuela": "Conjuración", "nivel": 7, "dano": 510, "costo": 100, "efectos": ["aturdir", "maldecir", "area"], "elemento": "Oscuridad", "activo": true },
+  { "id": 14, "nombre": "Chispa Eléctrica", "escuela": "Evocación", "nivel": 1, "dano": 90, "costo": 12, "efectos": ["aturdir"], "elemento": "Rayo", "activo": true },
+  { "id": 15, "nombre": "Muro de Hielo", "escuela": "Conjuración", "nivel": 5, "dano": 300, "costo": 75, "efectos": ["congelar", "area", "ralentizar"], "elemento": "Hielo", "activo": true },
+  { "id": 16, "nombre": "Lluvia de Meteoros", "escuela": "Evocación", "nivel": 9, "dano": 700, "costo": 140, "efectos": ["area", "quemar", "aturdir"], "elemento": "Fuego", "activo": false },
+  { "id": 17, "nombre": "Lazos de Raíz", "escuela": "Naturaleza", "nivel": 3, "dano": 170, "costo": 30, "efectos": ["paralizar", "ralentizar"], "elemento": "Naturaleza", "activo": true },
+  { "id": 18, "nombre": "Velo de Sombras", "escuela": "Nigromancia", "nivel": 6, "dano": 430, "costo": 90, "efectos": ["maldecir", "drenar", "cegar"], "elemento": "Oscuridad", "activo": true },
+  { "id": 19, "nombre": "Torrente Ácido", "escuela": "Conjuración", "nivel": 4, "dano": 260, "costo": 50, "efectos": ["envenenar", "quemar", "area"], "elemento": "Naturaleza", "activo": true },
+  { "id": 20, "nombre": "Destello Sagrado", "escuela": "Evocación", "nivel": 6, "dano": 450, "costo": 80, "efectos": ["cegar", "quemar", "drenar"], "elemento": "Luz", "activo": true }
+]
